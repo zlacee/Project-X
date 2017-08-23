@@ -21,11 +21,11 @@
 <div id="sign-in">
 <fieldset style="width:30%">
 <legend> LOGIN </legend>
-<form method="POST" action="">
+<form method="POST" action="connt.php">
 User </br>
-<input type="text" id="user" name="user" size="30" > </br>
+<input type="text" id="user" name="user" size="40" > </br>
 Password </br>
-<input type="password" id="pass" size="50"> </br>
+<input type="password" id="pass" name="pass" size="40"> </br>
 
 <input id="button" type="submit" value="Log-In">
 
