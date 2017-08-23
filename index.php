@@ -17,14 +17,21 @@
 
 </head>
 
-<body>
+<body id="body-color">
+<div id="sign-in">
+<fieldset style="width:30%">
+<legend> LOGIN </legend>
+<form method="POST" action="">
+User </br>
+<input type="text" id="user" name="user" size="30" > </br>
+Password </br>
+<input type="password" id="pass" size="50"> </br>
 
+<input id="button" type="submit" value="Log-In">
 
-
-
-
-
-
+</form>
+</fieldset>
+</div>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
