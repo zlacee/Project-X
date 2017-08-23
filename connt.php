@@ -1,9 +1,13 @@
 <?php
 	$username = $_POST['user'];
-	$password = $POST['pass'];
+	$password = $_POST['pass'];
 
-	$conn = mysqli_query($conn, "select * from user_login where user = '$username' and pass = '$password'") or die ("Failed to Login".mysqli_error());
-	$row = mysqli_fetch_array($result);
+
+        $conn = mysqli_connect("localhost","root","");
+	mysqli_select_db($conn,"project");
+
+	$resu = mysqli_query($conn, "select * from user_login where user = '$username' and pass = '$password'") or die ("Failed to Login".mysqli_error());
+	$row = mysqli_fetch_array($resu);
 
 	if (!empty($row['user']) == $username && $row['pass'] == $password) {
 
