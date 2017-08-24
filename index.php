@@ -27,7 +27,7 @@ User </br>
 Password </br>
 <input type="password" id="pass" name="pass" size="40"> </br>
 
-<input id="button" type="submit" value="Log-In">
+<input id="button" type="submit" value="Log-In" onclick="form.php">
 
 </form>
 </fieldset>
